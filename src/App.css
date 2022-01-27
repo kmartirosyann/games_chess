@@ -1,0 +1,53 @@
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  margin: 40px;
+  border: 1px solid;
+}
+.flex{
+  display: flex;
+flex-wrap: nowrap;
+justify-content: space-evenly;
+}
+
+.flex > div {
+  text-align: center;
+}
+.border-box{
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box-row{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+}
+.numberPanel{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.box-item{
+padding: 13px;
+  
+}
+.box-item > div{
+  font-size: 40px;
+}
+
+.whait{
+  background-color: aliceblue;
+}
+.black{
+  background-color: #2417179e;
+}

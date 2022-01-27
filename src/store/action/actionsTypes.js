@@ -1,0 +1,2 @@
+export const GET_FIGYRS = 'GET_FIGYRS';
+export const CHANGE_EVENT_FISH = 'CHANGE_EVENT_FISH'
