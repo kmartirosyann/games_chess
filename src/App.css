@@ -10,8 +10,8 @@
 }
 .flex{
   display: flex;
-flex-wrap: nowrap;
-justify-content: space-evenly;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .flex > div {

@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function LeterPanel() {
+export default function LettersPanel() {
   return(
         <div className='flex'>
             <div>a</div>

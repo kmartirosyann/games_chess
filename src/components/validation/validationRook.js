@@ -2,7 +2,7 @@
 
 
 
-export const validationRoos =(state,start,end)=>{
+export const validationRook =(state,start,end)=>{
 
     let res = true
     let maxNum = Math.max(end,start)

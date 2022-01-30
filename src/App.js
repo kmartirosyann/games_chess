@@ -1,12 +1,12 @@
-import ShaxmatPanel from './componnents/shaxmatPanel/ShaxmatPanel'
+import ChessPanel from './components/chessPanel/ChessPanel'
 import './App.css';
-import {MessagePopUp} from './componnents/popUp/MessagePopUp';
+import {MessagePopUp} from './components/popUp/MessagePopUp';
 
 function App() {
   return (
     <div className="App">
       <MessagePopUp/>
-    <ShaxmatPanel/>
+    <ChessPanel/>
     </div>
   );
 }
